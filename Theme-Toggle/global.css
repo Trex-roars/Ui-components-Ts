@@ -1,0 +1,32 @@
+/*  */
+@keyframes expand-light {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(3);
+        opacity: 1;
+    }
+}
+
+@keyframes expand-dark {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(3);
+        opacity: 1;
+    }
+}
+
+.animate-expand-light {
+    animation: expand-light 0.5s ease-in-out forwards;
+}
+
+.animate-expand-dark {
+    animation: expand-dark 0.5s ease-in-out forwards;
+}
