@@ -9,6 +9,7 @@ Welcome to the Components Documentation! This repository contains a variety of r
 1. [Alert Toast](#Alert-Toast)
 2. [Loading Spinner](#loading-spinner)
 3. [Navbar with Authentication](#navbar-with-authentication)
+4. [Theme Switcher](#Theme-Toogle)
 
 ---
 
